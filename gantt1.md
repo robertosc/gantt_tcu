@@ -18,3 +18,24 @@ gantt
     Materiales hidroponia        :after a4, 22d
 
             
+gantt
+    title Desarrollo de dispensador de alcohol en gel
+    dateFormat  DD-MM-YYYY
+    
+    section Planeamiento
+    Reuniones           :a0, 01-05-2020, 12d
+    Reunión hogar       :after a6, 45d
+
+    
+    
+    section Diseños
+    Diseño pvc       :a1, 05-05-2020, 15d
+    Diseño metalico     :a2, 25-06-2020  , 15d
+    Correciones             :a8, after a2, 22d
+
+    section Cotizaciones
+    Materiales 1      :a5, after a1, 12d
+    Materiales 2      :a6, after a8, 20d
+
+    section Construcción
+    Diseño pvc :a7, after a5, 22d
